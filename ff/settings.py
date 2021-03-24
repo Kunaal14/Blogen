@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'ggq30ccol*l216r!=$n5hxv=95az58
 DEBUG = False
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['radiant-wildwood-63552.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['https://vendorlabs.herokuapp.com/','127.0.0.1']
 
 
 # Application definition
